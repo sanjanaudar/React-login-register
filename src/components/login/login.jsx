@@ -10,11 +10,14 @@ function Login(props) {
                     <img src={loginImg} alt="login"/>
                 </div>
                 <div className="form">
-                    <div className="form-group">
+                    <div className="form-group">                 
+                        <h3>Login</h3>
                         <label htmlFor="username">Username</label>
                         <input type="text" name="username" placeholder="username"></input>
                         <label htmlFor="password">Password</label>
                         <input type="password" name="password" placeholder="password"></input>
+                        <label className= "hiding" htmlFor="username">Username</label>
+                        <input className= "hiding" type="text" name="username" placeholder="username"></input>
                     </div>
                 </div>
             </div>
